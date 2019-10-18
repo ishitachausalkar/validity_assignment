@@ -74,9 +74,10 @@ public class CSVController {
 	        
 	        String[] duprow =null;
 	        Iterator<String> it = duplicateData.iterator();
+	        System.out.println("=======Duplicate Rows===========");
 	        while (it.hasNext()) {
 				//System.out.println(it.next());
-				
+	        	
 				System.out.println(java.util.Arrays.toString(fnameDateMap.get(it.next())));
 			}
 	        
